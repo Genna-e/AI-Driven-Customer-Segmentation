@@ -1,5 +1,4 @@
 # AI-Driven-Customer-Segmentation.
-AI-Driven Customer Segmentation
 This project focuses on automating customer segmentation and developing targeted marketing strategies using RFM analysis and machine learning. It demonstrates an end-to-end implementation of data processing, model development, and integration with real-world marketing tools.
 
 Table of Contents
@@ -11,15 +10,18 @@ Model Development
 Usage
 Contributing
 License
-Project Overview
+
+
+# Project Overview
 Customer segmentation is a crucial strategy in marketing that involves dividing a customer base into groups of individuals that are similar in specific ways relevant to marketing, such as age, gender, interests, spending habits, etc. This project implements AI-driven customer segmentation using the RFM (Recency, Frequency, Monetary) model and machine learning clustering algorithms to group customers into segments. The segmented data can then be used to create personalized marketing campaigns.
 
-Objectives
+# Objectives
 Automate the process of customer segmentation using data from an e-commerce platform.
 Develop a pipeline that processes raw data, creates RFM features, and segments customers.
 Integrate the segmentation model with marketing tools to automate targeted marketing campaigns.
 Visualize the segmentation results and provide actionable insights for marketing strategies.
-Technical Stack
+
+# Technical Stack
 The project utilizes the following technologies and tools:
 
 Python: Core language for data processing and machine learning.
@@ -36,7 +38,7 @@ Follow these steps to set up the project on your local machine:
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/Genna-e/AI-Driven-Customer-Segmentation.git
+git clone https://github.com/username/AI-Driven-Customer-Segmentation.git
 cd AI-Driven-Customer-Segmentation
 2. Set Up a Virtual Environment
 Create and activate a Python virtual environment:
