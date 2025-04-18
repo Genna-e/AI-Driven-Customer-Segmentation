@@ -36,8 +36,6 @@ Installation
 Follow these steps to set up the project on your local machine:
 
 1. Clone the Repository
-bash
-Copy code
 git clone https://github.com/username/AI-Driven-Customer-Segmentation.git
 cd AI-Driven-Customer-Segmentation
 2. Set Up a Virtual Environment
