@@ -43,17 +43,13 @@ cd AI-Driven-Customer-Segmentation
 2. Set Up a Virtual Environment
 Create and activate a Python virtual environment:
 
-bash
-Copy code
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 3. Install Dependencies
 Install the required Python packages:
 
-bash
-Copy code
 pip install -r requirements.txt
-4. Configure Database (Optional)
+4. Configure Database
 If you're using a database like PostgreSQL or MySQL, configure it:
 
 Create a .env file with your database credentials.
@@ -78,20 +74,14 @@ Usage
 1. Run the Data Pipeline
 Execute the data pipeline to process raw data and generate RFM features:
 
-bash
-Copy code
 python src/data_pipeline.py
 2. Train the Clustering Model
 Train the customer segmentation model:
 
-bash
-Copy code
 python src/train_model.py
 3. Launch the API
 If you’ve implemented an API for integration, launch it using Flask or Django:
 
-bash
-Copy code
 flask run  # For Flask
 python manage.py runserver  # For Django
 4. Visualize the Results
